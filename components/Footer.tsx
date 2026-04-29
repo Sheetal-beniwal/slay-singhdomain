@@ -31,8 +31,7 @@ export default function Footer() {
                 className="w-14 h-14 rounded-2xl flex items-center justify-center text-black font-bold text-lg transition-all duration-300 hover:-translate-y-2"
                 style={{
                   background: `linear-gradient(135deg, var(--gold), #E85D20)`,
-                  boxShadow: '0 4px 20px var(--gold-glow)',
-                  fontFamily: s.icon.length > 1 ? 'inherit' : 'inherit'
+                  boxShadow: '0 4px 20px var(--gold-glow)'
                 }}
                 title={s.label}
               >
